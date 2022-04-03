@@ -30,15 +30,15 @@ int main() {
 	cout << " [ VERSION 3.84 -> GROWTOPIA MOKAD YA GES YA ] \n\n\n" << endl;
 	cout << " Feature On This Script:\n >> Custom GrowId\n >> Custom PassWord\n >> Custom Version GT\n >> Ga Perlu Set Port Untuk Sementara Ini :0 " << endl;
 	cout << "=================================================================================================================================\n\n" << endl;
-	cout << " This Script Made By DarkSec And Helped By TzyGt " << endl;
-	cout << " This Script Is Free! " << endl;
-	cout << " If Any Question You Can Chat Me On WhatsApp: 0881025693060 (DarkSec~) " << endl;
-	cout << " Expire For This Script: This Is Permanent, No Expire, Maybe I Will Update Soon :) \n\n" << endl;
-	cout << " Input Custom GrowID: " << endl;
+	cout << " >> This Script Made By DarkSec And Helped By TzyGt " << endl;
+	cout << " >> This Script Is Free! " << endl;
+	cout << " >> If Any Question You Can Chat Me On WhatsApp: 0881025693060 (DarkSec~) " << endl;
+	cout << " >> Expire For This Script: This Is Permanent, No Expire, Maybe I Will Update Soon :) \n\n" << endl;
+	cout << " >> Input Custom GrowID: " << endl;
 	getline(cin, gid);
-	cout << " Input Custom Password: " << endl;
+	cout << " >> Input Custom Password: " << endl;
 	getline(cin, gps);
-	cout << " Input Custom Gmail: " << endl;
+	cout << " >> Input Custom Gmail: " << endl;
 	getline(cin, em);
 	
 	Growid_acc = gid;
@@ -46,7 +46,7 @@ int main() {
 	Gmail_acc = em;
 	
         bot.SERVER_HOST = "213.179.209.168";
-        bot.SERVER_PORT = 17253;
+        bot.SERVER_PORT = 17246;
 
 	bot.userInit();
 	bots.push_back(bot);
